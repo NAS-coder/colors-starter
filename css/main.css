@@ -28,7 +28,7 @@ header {
 /*---------- CONTENT AREA ----------*/
 
 .col-3 {
-  width: 100%;
+  width: 50%;
   height: 320px;
   float: left;
 }
@@ -84,6 +84,9 @@ footer {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  .col-3 {
+    width: 33.33%;
+  }
   header {
     background-color: #696969;
   }
